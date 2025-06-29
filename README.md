@@ -14,10 +14,6 @@ FlowOne_ERP/
 ├── README.md
 └── .gitignore
 
-markdown
-복사
-편집
-
 ## 🔧 사용 기술
 
 ### Backend (Java, Spring Boot)
