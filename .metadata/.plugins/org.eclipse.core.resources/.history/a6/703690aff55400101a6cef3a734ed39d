@@ -1,0 +1,16 @@
+spring.application.name=backend
+
+# SERVER
+server.port=8081
+
+# DATABASE (PostgreSQL)
+spring.datasource.url=jdbc:postgresql://localhost:5432/flowone_erp
+spring.datasource.username=flowone
+spring.datasource.password=dae31565
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+# JPA
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
